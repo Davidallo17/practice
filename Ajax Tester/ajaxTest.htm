@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Ajax Tester</title>
+
+    
+ 
+</head>
+<body>
+    <div class="input-box">
+        <span>URL: </span>
+        <input type="text" id="url" value="http://s179017901.onlinehome.us/discoveryvip/">
+    
+        <select id="resources">
+            <option value="Javascript">Javascript</option>
+            <option value="jQuery">jQuery</option>
+            <option value="Fetch">Fetch</option>
+        </select>
+    
+        <select id="method">
+            <option>GET</option>
+            <option>POST</option>
+        </select>
+    
+        
+           First name:<input type="text" id="first">
+           Last name: <input type="text" id="last">
+        <input type="button" id="submit" value="Make Request">
+
+    </div>
+    <div class="output-box">
+        <div id="status">sad</div>
+        <br>
+        <div id="response"></div>
+        
+    </div>
+
+
+</body>
+</html>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script type="text/Javascript" src="javascript.js"></script>

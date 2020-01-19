@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">  
+    <style>
+      
+</style>
+</head>
+<body>
+   
+<div class="left-split left">
+  <ol class="list-group loadout">
+    <li id="load"></li>
+
+  </ol>
+</div>
+
+
+<div class="right-split right">
+  <div class="centered-top">
+    <span class="pokemon-name">Pokedex Entry no: </span> <span id="pokemon-id"></span>
+  </div>
+  <div class="centered">
+    <h1 id="pokemon-name"></h1>
+    <img id="pokemon-img">
+    <h2 id="pokemon-type">type</h2>
+  </div>
+  <div class="Ability-box">
+    <h2>Abilities</h2>
+    <span class="Ability-text">Abilities</span><span id="Abilities"></span>
+    <span class="Ability-text">Hidden Abilities</span><span id="Hidden_Abilities"></span>
+  </div>
+  <div class="Move-List">
+    <span class="Ability-text">Moves</span><span id="moves"></span>
+  </div>
+
+
+  <div class="centered-bottom">
+
+    <span>Base Stats Total: </span><span id="pokemon-TotalStat"></span><br>
+    <span>HP:</span><span id="pokemon-HPStat"></span>
+
+    <div class="progress">
+      <div class="progress-bar progress-hp " role="progressbar"   aria-valuenow="25" aria-valuemin="0" aria-valuemax="255"></div>
+    </div>
+    <span>Attack:</span><span id="pokemon-AttStat"></span>
+    <div class="progress">
+      <div class="progress-bar progress-attack " role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="255"></div>
+    </div>
+    <span>Defence:</span><span id="pokemon-DefStat"></span>
+    <div class="progress">
+      <div class="progress-bar progress-defence " role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="255"></div>
+    </div>
+    <span>Special Attack:</span> <span id="pokemon-SPAStat"></span>
+    <div class="progress">
+      <div class="progress-bar progress-spa " role="progressbar"   aria-valuenow="25" aria-valuemin="0" aria-valuemax="255"></div>
+    </div>
+    <span>Special Defence:</span><span id="pokemon-SPDStat"></span>
+    <div class="progress">
+      <div class="progress-bar progress-spd " role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="255"></div>
+    </div>
+    <span>Speed:</span> <span id="pokemon-SPEStat"></span>
+    <div class="progress">
+      <div class="progress-bar progress-spe " role="progressbar"   aria-valuenow="25" aria-valuemin="0" aria-valuemax="255"></div>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="app.js"></script>
+
+</html>
